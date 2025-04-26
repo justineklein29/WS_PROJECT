@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <link rel="stylesheet" href="/Home.css">
+    <link rel="stylesheet" href="/Product.css">
+   
+    <title>Product</title>
+
+   <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Shafarik&display=swap" rel="stylesheet">
+
+   
+</head>
+<body>
+    <nav class="home-nav">
+        <div class="logo-container">
+            <img src="/BIRTHDAY-IMAGE/image-1.jpg" alt="" class="logo">
+        </div>
+
+        <div class="btn-container"> 
+        
+        <a href="/Home.html" class="btn-home">Home</a>
+        <a href="#" class="btn-home">About</a>
+        <a href="/Product.html" class="btn-home">Product</a>
+        <a href="#" class="btn-home">FAQ</a>
+        <a href="#" class="btn-home">Lorem</a>
+
+        </div>
+    </nav>
+
+
+
+    <nav class="img-nav-container"> 
+
+        <div class="Brand-Name-Container">
+        
+            <p class="Brand-Name">   
+                Nathalie's Sweet <br>
+                and <br>
+                Pastry Calore
+            </p>
+        </div>
+
+        <div class="img-nav"> 
+            <button data-modal-target="#modal" class="btn-ctz">Customize Cake</button>
+
+            <div class="modal" id="modal">
+
+                <div class="modal-header">
+                     <div class="title-modal">Customize Cake </div>
+                     <button data-close-button class="close-modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <form >
+                        <fieldset> 
+   
+                               <legend style="color: blue;">Reqeust for proposal</legend>
+   
+                                   <table border="0" > 
+                                      
+                                           
+                                       
+   
+                                                           <tr>
+   
+                                                               <td> <label> Full name:</label></td>
+                                                               <td> <input type="text" placeholder="Full name"required/> </td>
+                                                               
+                                                           </tr>
+   
+                                                           <tr>
+   
+                                                               <td> <label> Email:</label>  </td>
+                                                               <td> <input type="email" placeholder="email"required/> </td>  
+   
+                                                           </tr> 
+                                           
+                                                           <tr>
+   
+                                                               <td> <label> Username:</label></td> 
+                                                               <td> <input type="text" placeholder="Last name"required/> </td>
+   
+                                                           </tr>
+   
+                                                           <tr>
+   
+                                                               <td> <label> Password:</label>  </td> 
+                                                               <td> <input type="Password" placeholder="Password"required/> </td> 
+   
+                                                           </tr>
+   
+                                                           <tr>
+   
+                                                               <td>  <label>Your Business:</label></td>
+                                                               <td>  <textarea rows="10" cols="30">Briefly describe your business in this space </textarea> <br></td>
+   
+                                                           </tr>    
+                                               
+                                                           <tr>
+   
+                                                               <td> Company size: </td>   
+                                                               <td><input type="radio" name="size" id="less than">   <label for="less than">Less than 10 </label></td>
+   
+                                                           </tr>
+   
+                                                           <tr>
+   
+                                                               <td>  </td>   
+                                                               <td><input type="radio" name="size" id="11"> <label for="11">11 to 50</label></td>
+   
+                                                           </tr>
+   
+                                                           <tr>
+   
+                                                               <td>  </td>   
+                                                               <td><input type="radio" name="size"> <label> 50 to 200</label></td>
+   
+                                                           </tr>
+   
+                                                           <tr>
+   
+                                                               <td>  </td>   
+                                                               <td><input type="radio" name="size"> <label> over 200</label></td>
+                                               
+                                                           </tr>
+   
+                                                           <tr>
+   
+                                                               <td> Service: </td>
+                                                               <td> <input type="checkbox">  <label> Brand Identity</label>
+                                                               <input type="checkbox">  <label> New Website </label>
+                                                               <input type="checkbox">  <label> Web Designer </label></td>
+   
+                                                           </tr>
+   
+                                                           <tr>
+   
+                                                               <td> Timeline:  </td> 
+                                                               <td> <select name="BSIT">     
+                                                               <option >immediately</option>
+                                                               <option value="1=2 weeks">1 - 2 weeks</option>
+                                                               <option value="3=6 weeks">3 - 6 weeks</option>
+                                                               <option value="7 - 2 months">7 - 2 months</option>
+                                                               </select></td>
+   
+                                                           </tr>   
+                                       
+   
+   
+                                                           <tr>
+                                                   
+                                                               <td></td>
+                                                               <td> <input type="button" value="Send to dev/design"> </td>
+   
+                                                           </tr>  
+   
+                                                       
+   
+                                                       
+                                                       </table>
+                                      
+                                   </fieldset>
+                              
+                           </form>
+                </div>
+            </div>
+
+            <div id="overlay"> </div>
+            <a href="#Birthday-Cake"> Birthday Cake</a>
+            <a href="#Wedding-Cake ">Wedding Cake</a>
+            <a href="# ">Anniversary Cake</a>
+            <a href="# ">Graduation Cake</a>
+            <a href="# ">Holiday Cakes </a>
+            <a href="# ">Cupcakes</a>
+            <a href="# ">Mug Cake</a>
+        </div>
+        
+    </nav>
+    
+ 
+<section class="container">
+
+    <div class="Bday-Container"> 
+        <p id="Birthday-Cake">&nbsp;</p>
+        <h1 class="Bday-h1">Birthday Cake</h1>
+    </div>
+
+    <div class="Product-1-img">
+        <a href="/Home.html"><img src="/BIRTHDAY-IMAGE/image-1.jpg" alt="Product Picture" class="img-product-1"> </a> 
+        <h3> Strawberry Bliss</h3>
+        <div class="cake-info-1">
+            <h4>Strawberry Bliss</h4>
+            <p>Size: 8" round</p>
+            <p>Soft vanilla sponge with strawberry cream and fresh berries.</p>
+          </div>
+    </div>
+
+
+    <div class="Product-2-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-2.jpg" alt="Product Picture" class="img-product-2"></a>
+        <h3> Strawberry Bliss</h3>
+        <div class="cake-info-2">
+            <h4>Strawberry Bliss</h4>
+            <p>Size: 8" round</p>
+            <p>Soft vanilla sponge with strawberry cream and fresh berries.</p>
+          </div>
+    </div>
+
+    <div class="Product-3-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-3.jpg" alt="Product Picture" class="img-product-3"></a>
+       
+    </div>
+
+    <div class="Product-4-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-4.jpg" alt="Product Picture" class="img-product-4"></a>
+       
+    </div>
+
+    <div class="Product-5-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-5.jpg" alt="Product Picture" class="img-product-5"></a>
+       
+    </div>
+
+    <div class="Product-6-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-6.jpg" alt="Product Picture" class="img-product-6"></a>
+        
+    </div>
+
+    <div class="Product-7-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-7.jpg" alt="Product Picture" class="img-product-7"></a>
+       
+    </div>
+
+    <div class="Product-8-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-8.jpg" alt="Product Picture" class="img-product-8"></a>
+        
+    </div>
+
+    <div class="Product-9-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-9.jpg" alt="Product Picture" class="img-product-9"></a>
+        
+    </div>
+
+    <div class="Product-10-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-10.jpg" alt="Product Picture" class="img-product-10"></a>
+       
+    </div>
+
+    <div class="Product-11-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-11.jpg" alt="Product Picture" class="img-product-11"></a>
+       
+    </div>
+
+    <div class="Product-12-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-12.jpg" alt="Product Picture" class="img-product-12"></a>
+      
+    </div>
+
+    <div class="Wedding-Cake"> 
+        <p id="Wedding-Cake">&nbsp;</p>
+     <span class="wedding-h1"> Wedding Cake </span>
+
+     <div class="Product-13-img">
+        <a href="/Home.html"><img src="/BIRTHDAY-IMAGE/image-1.jpg" alt="Product Picture" class="img-product-13"> </a> 
+   
+    </div>
+
+
+    <div class="Product-14-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-2.jpg" alt="Product Picture" class="img-product-14"></a>
+     
+    </div>
+
+    <div class="Product-15-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-3.jpg" alt="Product Picture" class="img-product-15"></a>
+        <h3> Strawberry Bliss</h3>
+    </div>
+
+    <div class="Product-16-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-4.jpg" alt="Product Picture" class="img-product-16"></a>
+        
+    </div>
+
+    <div class="Product-17-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-5.jpg" alt="Product Picture" class="img-product-17"></a>
+        
+    </div>
+
+    <div class="Product-18-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-6.jpg" alt="Product Picture" class="img-product-18"></a>
+        
+    </div>
+
+    <div class="Product-19-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-7.jpg" alt="Product Picture" class="img-product-19"></a>
+      
+    </div>
+
+    <div class="Product-20-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-8.jpg" alt="Product Picture" class="img-product-20"></a>
+       
+    </div>
+
+    <div class="Product-21-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-9.jpg" alt="Product Picture" class="img-product-21"></a>
+        
+    </div>
+
+    <div class="Product-22-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-10.jpg" alt="Product Picture" class="img-product-22"></a>
+       
+    </div>
+
+    <div class="Product-23-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-11.jpg" alt="Product Picture" class="img-product-23"></a>
+       
+    </div>
+
+    <div class="Product-24-img"> 
+        <a href="/Home.html"> <img src="/BIRTHDAY-IMAGE/image-12.jpg" alt="Product Picture" class="img-product-24"></a>
+        
+        
+    </div>
+
+ 
+
+
+</section>
+
+<script src="/Product.js"></script>
+
+<div class="hover-me">
+    <span class="hover-me-"> mama mo blue</span>
+</div>
+</body>
+</html>

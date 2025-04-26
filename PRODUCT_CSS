@@ -1,0 +1,463 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(253, 252, 251);
+}   
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 200px;
+}
+.Bday-Container-1,
+.Wedding-Cake,
+.Bday-Container{
+    background: #3E2723;
+    
+    text-align: center;
+    align-items: center; 
+   
+}
+
+.wedding-h1 {
+    font-family: "Dancing Script", cursive;
+    font-weight: normal;  /* Replace 'weight' with the appropriate font weight */
+    font-style: normal;
+    position: relative;
+    color: rgb(252, 252, 252);
+    font-size: 100px;
+    text-shadow: -5px -5px 8px black;
+    margin: 0;
+}
+      
+
+.Bday-h1{
+    position: relative;
+    color: rgb(252, 252, 252);
+    font-size: 100px;
+    font-family: Georgia;
+    text-shadow: -5px -5px 8px black;
+    margin: 0;
+    
+    
+}
+.Brand-Name-Container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 6px 0;
+   
+}
+.Brand-Name{
+    font-size: 30px;
+    font-family: Garamond;
+    color: #FAF3E0;
+    text-shadow: 3px 3px 5px black;
+}
+.img-nav-container{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    width: 220px;
+    left: 0;
+    top: 70px;
+    background-color: #5A3E36;
+    z-index: 3;
+    
+}
+.img-nav{
+ 
+    border: 3px solid black;
+    box-shadow:  -1px -1px 3px white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.btn-ctz{
+    background-color: #5A3E36;
+    border: none;
+    color: #FFECC8;
+    font-weight: bold;
+    font-size: large;
+    font-family: helvetica;
+    margin: 10px 0;
+}
+
+.btn-ctz:hover{
+    background: gray;
+}
+
+.img-nav > a{
+    margin: 30px 0;
+    text-decoration: none;
+    font-size: large;
+    font-family: helvetica;
+    font-weight: bold;
+    color: #FFECC8;
+}
+
+.img-nav > a:hover{
+    background: gray;
+    height: 80x;
+   
+}
+
+
+
+
+.container{
+    margin: 50px 270px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    grid-template-rows: repeat(18, 200px);    
+   column-gap: 70px;
+    row-gap: 20px;
+   grid-template-areas: 
+   "Bday-Container Bday-Container Bday-Container Bday-Container Bday-Container Bday-Container"
+   "img-1 img-1 img-2 img-2 img-3 img-3"
+   "img-1 img-1 img-2 img-2 img-3 img-3" 
+   "img-4 img-4 img-5 img-5 img-6 img-6"
+   "img-4 img-4 img-5 img-5 img-6 img-6"
+   "img-7 img-7 img-8 img-8 img-9 img-9"
+   "img-7 img-7 img-8 img-8 img-9 img-9"
+   "img-10 img-10 img-11 img-11 img-12 img-12"
+   "img-10 img-10 img-11 img-11 img-12 img-12"
+   "wedding-container wedding-container wedding-container wedding-container wedding-container wedding-container"
+   "img-13 img-13 img-14 img-14 img-15 img-15"
+   "img-13 img-13 img-14 img-14 img-15 img-15" 
+   "img-16 img-16 img-17 img-17 img-18 img-18"
+   "img-16 img-16 img-17 img-17 img-18 img-18"
+   "img-19 img-19 img-20 img-20 img-21 img-21"
+   "img-19 img-19 img-20 img-20 img-21 img-21"
+   "img-22 img-22 img-23 img-23 img-24 img-24"
+   "img-22 img-22 img-23 img-23 img-24 img-24"
+   ;
+
+   text-align: center;
+}
+
+.Bday-Container{
+    grid-area: Bday-Container;
+}
+
+.Product-1-img{
+    grid-area:img-1;
+}
+
+.Product-2-img{
+    grid-area: img-2;
+}
+
+.Product-3-img{
+    grid-area: img-3;
+}
+
+.Product-4-img{
+    grid-area: img-4;
+}
+
+.Product-5-img{
+    grid-area: img-5;
+}
+
+.Product-6-img{
+    grid-area: img-6;
+}
+
+.Product-7-img{
+    grid-area: img-7;
+}
+
+.Product-8-img{
+    grid-area: img-8;
+}
+
+.Product-9-img{
+    grid-area: img-9;
+}
+
+.Product-10-img{
+    grid-area: img-10;
+}
+
+.Product-11-img{
+    grid-area: img-11;
+}
+
+.Product-12-img{ grid-area: img-12; }
+
+.Wedding-Cake{
+    grid-area: wedding-container;
+}
+
+.Product-13-img{
+    grid-area: img-13;
+
+}
+
+.Product-14-img{
+    grid-area: img-14;
+}
+
+.Product-15-img{
+    grid-area: img-15;
+}
+
+.Product-16-img{
+    grid-area: img-16;
+}
+
+.Product-17-img{
+    grid-area: img-17;
+}
+
+.Product-18-img{
+    grid-area: img-18;
+}
+
+.Product-19-img{
+    grid-area: img-19;
+}
+
+.Product-20-img{
+    grid-area: img-20;
+}
+
+.Product-21-img{
+    grid-area: img-21;
+}
+
+.Product-23-img{
+    grid-area: img-23;
+}
+
+.Product-24-img{
+    grid-area: img-24;
+}
+
+.Bday-Container-1{
+    grid-area: asd;
+}
+
+.img-product-24,
+.img-product-23,
+.img-product-22,
+.img-product-21,
+.img-product-20,
+.img-product-19,
+.img-product-18,
+.img-product-17,
+.img-product-16,
+.img-product-15, /** Size ng IMAGE Product **/
+.img-product-14,
+.img-product-13,
+.img-product-12,
+.img-product-11,
+.img-product-10,
+.img-product-9,
+.img-product-8,
+.img-product-7,
+.img-product-6,
+.img-product-5,
+.img-product-4,
+.img-product-3, /** Size ng IMAGE Product **/
+.img-product-2,
+.img-product-1 {
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.Product-24-img,
+.Product-23-img,
+.Product-22-img,
+.Product-21-img,
+.Product-20-img,
+.Product-19-img,
+.Product-18-img, 
+.Product-17-img,
+.Product-16-img,
+.Product-15-img,     /** Container ng IMAGE Product **/
+.Product-14-img,
+.Product-13-img,
+.Product-12-img,
+.Product-11-img,
+.Product-10-img,
+.Product-9-img,
+.Product-8-img,
+.Product-7-img,
+.Product-6-img, 
+.Product-5-img,
+.Product-4-img,
+.Product-3-img,     /** Container ng IMAGE Product **/
+.Product-2-img,
+.Product-1-img {
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid red;
+}
+h3{
+    font-family: Helvetica;
+    font-size: 15px;
+    color: #9a10aa;
+    margin: 0;
+}
+
+.Product-24-img::after,
+.Product-23-img::after,
+.Product-22-img::after,
+.Product-21-img::after,
+.Product-20-img::after,
+.Product-19-img::after,
+.Product-18-img::after,
+.Product-17-img::after,
+.Product-16-img::after,
+.Product-15-img::after,  /** Para sa pag hinover mag d darken ang BackGround **/
+.Product-14-img::after,
+.Product-13-img::after,
+.Product-12-img::after,
+.Product-11-img::after,
+.Product-10-img::after,
+.Product-9-img::after,
+.Product-8-img::after,
+.Product-7-img::after,
+.Product-6-img::after,
+.Product-5-img::after,
+.Product-4-img::after,
+.Product-3-img::after,  /** Para sa pag hinover mag d darken ang BackGround **/
+.Product-2-img::after,
+.Product-1-img::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5); /* Black gray tint */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;  
+    pointer-events: none;
+}
+
+.Product-24-img:hover::after,
+.Product-23-img:hover::after,
+.Product-22-img:hover::after,
+.Product-21-img:hover::after,
+.Product-20-img:hover::after,
+.Product-19-img:hover::after,
+.Product-18-img:hover::after,
+.Product-17-img:hover::after,
+.Product-16-img:hover::after,
+.Product-15-img:hover::after,    /** Para sa pag hinover mangingibabaw ang Color**/
+.Product-14-img:hover::after,
+.Product-13-img:hover::after,
+.Product-12-img:hover::after,
+.Product-11-img:hover::after,
+.Product-10-img:hover::after,
+.Product-9-img:hover::after,
+.Product-8-img:hover::after,
+.Product-7-img:hover::after,
+.Product-6-img:hover::after,
+.Product-5-img:hover::after,
+.Product-4-img:hover::after,
+.Product-3-img:hover::after,    /** Para sa pag hinover mangingibabaw ang Color**/
+.Product-2-img:hover::after,
+.Product-1-img:hover::after{
+    opacity: 2;
+}
+
+.cake-info-2,           /* pag hinover ang picture makikita ang description size ng cake */
+.cake-info-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%; /* match your .img height */
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.Product-2-img:hover .cake-info-2 ,
+  .Product-1-img:hover .cake-info-1 {
+    
+    opacity: 1;
+  }
+
+
+
+
+
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    z-index: 3;
+    background-color: #f7f7f7;
+    max-width: 80%;
+}
+
+.modal.active{
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 30px;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+
+#overlay{
+    position: fixed;
+    opacity: 0; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    transition: 200ms ease-in-out;
+    pointer-events: none;
+    z-index: 2;
+}
+#overlay.active{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.title-modal{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+
+.close-modal{
+    border: none;
+    font-size: 50px;
+}
+
